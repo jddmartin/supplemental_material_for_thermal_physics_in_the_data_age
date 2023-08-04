@@ -1,0 +1,23 @@
+# -*- mode: python; -*-
+# Matplotlib style sheet
+# some resources:
+# /usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/matplotlibrc
+# In python: print(plt.rcParams)
+
+figure.figsize : 6.4, 4.8
+font.size : 10.0
+
+# text.usetex : True
+# text.latex.preamble : \usepackage{amsmath}
+
+axes.grid : False
+axes.grid.axis : both    # both x and y?
+axes.grid.which : both   # both minor and major?
+axes.spines.top    : False
+axes.spines.right  : False
+
+xtick.minor.visible : True
+ytick.minor.visible : True
+
+legend.fontsize : 8
+legend.loc : upper right
